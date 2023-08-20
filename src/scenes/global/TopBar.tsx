@@ -37,6 +37,7 @@ const TopBar = () => {
           sx={{
             ml: 2,
             flex: 1,
+            p: 1,
           }}
         />
 
