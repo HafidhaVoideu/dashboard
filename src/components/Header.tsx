@@ -1,7 +1,6 @@
 import { Box, colors, Typography, useTheme } from "@mui/material";
 
 import { tokens } from "../theme";
-import React from "react";
 
 type HeaderProps = {
   title: string;

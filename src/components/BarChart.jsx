@@ -1,14 +1,9 @@
-import React from "react";
-
 import { useTheme } from "@mui/material";
 import { ResponsiveBar } from "@nivo/bar";
 import { tokens } from "../theme";
 import { mockBarData as data } from "../data/mockData";
 
-type BarChartProps = {
-  isDashboard: boolean;
-};
-export const BarChart = ({ isDashboard = false }: BarChartProps) => {
+export const BarChart = ({ isDashboard = false }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
 
