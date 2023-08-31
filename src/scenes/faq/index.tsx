@@ -145,8 +145,8 @@ export const FAQ = () => {
           onChange={(_, isExpanded) => handleAccordion(isExpanded, "panel4")}
         >
           <AccordionSummary
-            id="panel4-header"
-            aria-controls="panel4-content"
+            id="panel5-header"
+            aria-controls="panel5-content"
             expandIcon={<ExpandMore />}
           >
             <Typography color={colors.greenAccent[500]}>
